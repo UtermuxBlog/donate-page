@@ -61,7 +61,7 @@ a{
 	background-color: #fff;
 	border: 1px solid #ddd;
 	border-radius: 6px;
-	width: 225px;
+	width: 150px;
 	height: 28px;
 	float: left;
 	z-index: 1;
@@ -102,8 +102,8 @@ a{
 #donateBox #AliPay {
 	background-image: url(images/alipay.svg);
 }
-#donateBox #WeChat {
-	background-image: url(images/wechat.svg);
+#donateBox #Afdian {
+	background-image: url(images/afdian.svg);
 }
 #QRBox {
 	top: 0;
@@ -135,7 +135,7 @@ a{
 #github {
 	width: 24px;
 	height: 24px;
-	left: calc(50% + 98.5px);
+	left: calc(50% + 28.5px);
 	top: calc(50% - 30px);
 	background: no-repeat center center url(images/github.svg);
 	background-size: contain;
