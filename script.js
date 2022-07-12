@@ -2,6 +2,7 @@ jQuery(document).ready(function() {
 	var QRBox	=	$('#QRBox');
 	var MainBox	=	$('#MainBox');
 	var AliPayQR	=	'images/AliPayQR.png';
+	var qqQR        =       'images/qqQR.png'
 
 	
 
@@ -19,6 +20,8 @@ jQuery(document).ready(function() {
 		var thisID	=	$(this).attr('id');
 		if (thisID === 'AliPay') {
 			showQR(AliPayQR);
+		} else if (thisID === 'qq') {
+			showQR(qqQR);
 		}
 	});
 
