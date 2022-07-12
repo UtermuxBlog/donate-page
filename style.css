@@ -92,6 +92,9 @@ a{
 #donateBox>li:first-child {
 	border-width: 0;
 }
+#jl a {
+	color:	red;
+}
 #donateBox a {
 	display: block;
 }
