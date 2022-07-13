@@ -1,8 +1,8 @@
 jQuery(document).ready(function() {
 	var QRBox	=	$('#QRBox');
 	var MainBox	=	$('#MainBox');
-	var AliPayQR	=	'images/AliPayQR.png';
-	var qqQR        =       'images/qqQR.png'
+	var AliPayQR	=	'https://alpha-q3.sourcegcdn.com/2022/07/13/X1CqBIFB.png';
+	var qqQR        =       'https://alpha-q3.sourcegcdn.com/2022/07/13/9z24jLEi.jpg'
 
 	
 
