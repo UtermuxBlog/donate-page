@@ -1,7 +1,7 @@
 jQuery(document).ready(function() {
 	var QRBox	=	$('#QRBox');
 	var MainBox	=	$('#MainBox');
-	var AliPayQR	=	'https://alpha-q3.sourcegcdn.com/2022/07/13/X1CqBIFB.png';
+	var AliPayQR	=	'/images/AliPayQR.png';
 	var qqQR        =       'https://alpha-q3.sourcegcdn.com/2022/09/13/m8WnY9Z8.png'
 
 	
@@ -18,7 +18,7 @@ jQuery(document).ready(function() {
 
 	$('#donateBox>li').click(function(event) {
 		var thisID	=	$(this).attr('id');
-		if (thisID === 'AliPay') {
+		if (thisID === 'AliChat') {
 			showQR(AliPayQR);
 		} else if (thisID === 'qq') {
 			showQR(qqQR);
